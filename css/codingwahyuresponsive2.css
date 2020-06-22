@@ -1,0 +1,62 @@
+@media (max-width: 1000px){
+.container {
+	width: 100%;
+	text-align: center;
+}
+
+.konten img {
+	align: center;
+}
+
+.sambutan {
+	font-size: 18px;
+}
+
+.anggota1 {
+	margin: 0 auto;
+}
+
+.anggota2 {
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+@media (max-width: 670px){
+
+.konten {
+	width: 100%;
+	text-align: center;
+}
+
+.konten img {
+	align: center;
+}
+
+.sambutan {
+	font-size: 11px;
+}
+
+.anggotatim1 {
+	flex-direction: column;
+}	
+
+.tim1 {
+	margin: 0 auto;
+}
+
+.anggotatim2 {
+	flex-direction: column;
+}
+
+.tim2 {
+margin: 0 auto;
+}
+
+.anggotatim3 {
+	flex-direction: column;
+}
+
+.tim3 {
+	margin: 0 auto;
+}
