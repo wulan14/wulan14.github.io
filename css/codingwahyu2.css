@@ -1,0 +1,97 @@
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+.profil-wrapper {
+  width: : 100%;
+  font-family: "Quicksand";
+  text-align: center;
+  background-image: url(https://i.ibb.co/M6LxHd5/bg-wahyu.png);
+  background-size: cover;
+}
+
+.konten img {
+  align: center;
+}
+
+.sambutan {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #ff800e;
+  font-size: 26px;
+}
+
+.anggotatim1 {
+  display: flex;
+  width: 100%
+}
+
+.tim1  {
+  flex: auto;
+  ;
+}
+
+.anggotatim2 {
+  display: flex;
+  width: 100%;
+}
+
+.tim2 {
+  flex: auto;
+}
+
+.anggotatim3 {
+  display: flex;
+  width: 100%;
+}
+
+.tim3 {
+  flex: auto;
+}
+
+.profil-wrapper p {
+  font-weight: bold;
+  color: #ff800e;
+  font-size: 20px;
+}
+
+/*EFEK TRANSISI*/
+.konten img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+/*EFEK HOVER PRESISI, JANGAN DIGABUNG*/
+#wahyu:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#wulan:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#yani:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#yuhri:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#nisa:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  cursor: pointer;
+}
