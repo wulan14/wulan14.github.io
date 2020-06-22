@@ -88,6 +88,15 @@
     .top-header #navbar-wd {
          padding-right: 0;
     }
+
+    .navbar-nav {
+    display: none;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    }
 }
 
 /* mobile or only mobile */
@@ -176,5 +185,14 @@
 
      .top-header #navbar-wd {
          padding-right: 0;
+    }
+
+    .navbar-nav {
+    display: none;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
     }
 }
